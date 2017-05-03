@@ -1,5 +1,5 @@
 
-#jeekit-yuicompressor
+#yuicompressor
 
 基于yahoo yui的js,css压缩组件，解决压缩异常问题
 
@@ -9,5 +9,5 @@
 #更新说明
 ======================================================================
 
-##V1.0.0-SNAPSHOT
+##V0.0.1-SNAPSHOT
 
