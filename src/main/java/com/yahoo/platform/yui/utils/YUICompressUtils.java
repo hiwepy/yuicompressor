@@ -20,15 +20,13 @@ import com.yahoo.platform.yui.compressor.org.mozilla.javascript.EvaluatorExcepti
 
 /**
  * 
- *@类名称:YUICompressUtils.java
- *@类描述：该程序使用了yahoo的YUI组件， 下载地址：http://yuilibrary.com/downloads/#yuicompressor，
+ * @className	： YUICompressUtils
+ * @description	： 该程序使用了yahoo的YUI组件， 下载地址：http://yuilibrary.com/downloads/#yuicompressor，
  *                         英文帮助文档地址：http://developer.yahoo.com/yui/compressor/，
  *                         所以测试该代码的时候请先去下载该组件
- *@创建人：wandalong
- *@创建时间：2015-4-28 上午11:53:08
- *@修改人：
- *@修改时间：
- *@版本号:v1.0
+ * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @date		： 2017年9月12日 下午10:51:05
+ * @version 	V1.0
  */
 public abstract class YUICompressUtils {
 
@@ -62,16 +60,13 @@ public abstract class YUICompressUtils {
 	
 	/**
 	 * 
-	 *@描述：根据Reader获取JavaScriptCompressor对象
-	 *@创建人:wandalong
-	 *@创建时间:2015-4-28下午12:21:58
-	 *@param in
-	 *@return
-	 *@throws EvaluatorException
-	 *@throws IOException
-	 *@修改人:
-	 *@修改时间:
-	 *@修改描述:
+	 * @description	： 根据Reader获取JavaScriptCompressor对象
+	 * @author 		： <a href="https://github.com/vindell">vindell</a>
+	 * @date 		：2017年9月12日 下午10:51:18
+	 * @param in
+	 * @return
+	 * @throws EvaluatorException
+	 * @throws IOException
 	 */
 	public static JavaScriptCompressor getJavaScriptCompressor(Reader in) throws EvaluatorException, IOException {
 		JavaScriptCompressor compressor = new JavaScriptCompressor(in, new ErrorReporter() {
@@ -103,15 +98,12 @@ public abstract class YUICompressUtils {
 
 	/**
 	 * 
-	 *@描述：根据Reader获取CssCompressor对象
-	 *@创建人:wandalong
-	 *@创建时间:2015-4-28下午12:23:27
-	 *@param in
-	 *@return
-	 *@throws IOException
-	 *@修改人:
-	 *@修改时间:
-	 *@修改描述:
+	 * @description	： 根据Reader获取CssCompressor对象
+	 * @author 		： <a href="https://github.com/vindell">vindell</a>
+	 * @date 		：2017年9月12日 下午10:51:26
+	 * @param in
+	 * @return
+	 * @throws IOException
 	 */
 	public static CssCompressor getCssCompressor(Reader in) throws IOException {
 		 CssCompressor compressor = new CssCompressor(in);
