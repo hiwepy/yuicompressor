@@ -44,11 +44,10 @@ public abstract class YUICompressUtils {
 		YUICompressUtils.compressJs(FileUtils.readFileToString(new File("D:\\resources\\new1.js"), "utf-8"), out);
 		
 		*/
-		//FileUtils.readFileToString(new File("D:\\java\\services\\apache-tomcat-6.0.30-zftal\\webapps\\zftal-web\\js\\dynamic\\N0125-cx.js")
-		File srcFile = new File("D:\\java\\services\\apache-tomcat-6.0.30-zftal\\webapps\\zftal-web\\js\\dynamic\\N0125-cx.js");
+		File srcFile = new File("cx.js");
 		String charset = "utf-8";
 		Reader	in  = new InputStreamReader(new FileInputStream(srcFile),charset);
-		Writer	out = new OutputStreamWriter(new FileOutputStream(new File(srcFile.getParentFile(),"N0125-cx-min.js")),charset);
+		Writer	out = new OutputStreamWriter(new FileOutputStream(new File(srcFile.getParentFile(),"cx-min.js")),charset);
 
 		YUICompressUtils.compressJs(in, out);
 		
