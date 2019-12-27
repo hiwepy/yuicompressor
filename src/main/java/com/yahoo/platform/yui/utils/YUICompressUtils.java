@@ -24,7 +24,7 @@ import com.yahoo.platform.yui.compressor.org.mozilla.javascript.EvaluatorExcepti
  * @description	： 该程序使用了yahoo的YUI组件， 下载地址：http://yuilibrary.com/downloads/#yuicompressor，
  *                         英文帮助文档地址：http://developer.yahoo.com/yui/compressor/，
  *                         所以测试该代码的时候请先去下载该组件
- * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  * @date		： 2017年9月12日 下午10:51:05
  * @version 	V1.0
  */
@@ -60,7 +60,7 @@ public abstract class YUICompressUtils {
 	/**
 	 * 
 	 * @description	： 根据Reader获取JavaScriptCompressor对象
-	 * @author 		： <a href="https://github.com/vindell">vindell</a>
+	 * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
 	 * @date 		：2017年9月12日 下午10:51:18
 	 * @param in
 	 * @return
@@ -98,7 +98,7 @@ public abstract class YUICompressUtils {
 	/**
 	 * 
 	 * @description	： 根据Reader获取CssCompressor对象
-	 * @author 		： <a href="https://github.com/vindell">vindell</a>
+	 * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
 	 * @date 		：2017年9月12日 下午10:51:26
 	 * @param in
 	 * @return
